@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "thor", "~> 0.19"
+  spec.add_dependency "thor", "~> 1.0"
 
   spec.add_development_dependency "sequel"
   spec.add_development_dependency "pg"
